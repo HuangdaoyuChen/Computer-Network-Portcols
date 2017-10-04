@@ -14,10 +14,7 @@ public class GBNT {
 			BufferedReader welreader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			DataOutputStream writer = new DataOutputStream (socket.getOutputStream());
 			DataInputStream reader = new DataInputStream (socket.getInputStream());
-			
-			
-			
-			
+					
 			
 			//define a scanner
 			Scanner scr = new Scanner(System.in);
@@ -45,8 +42,7 @@ public class GBNT {
 				sent++;
 			}
 			
-			
-			
+						
 			listener.join();
 			socket.close();
 		
