@@ -195,6 +195,7 @@ public class RoutingClient {
 
 					}
 				}
+		
 				
 				System.out.println("Adjacency Matrix: ");
 				for (int i = 0; i < noNodes; i++) {
